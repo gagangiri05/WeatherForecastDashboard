@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+body {
+    font-size: 16px;
+    line-height: 1;
+    align-content: center;
+    margin: 40px;
+    color: rgb(4, 4, 4);
+   
+}
+
+.head {
+    
+    width: 900px;
+    border: 10px solid green;
+    padding: 10px;
+    margin: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.search {
+    
+    padding: 25px 0 25px 0;
+}
+
+input {
+    width: 240px;
+    height: 20px;
+}
+.container-forecast {
+    width: 100%;
+    float: right;
+    border-radius: 6px;
+    max-height: 150px;
+}
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+  .container-forecast {
+    width: 100%;
+    float: right;
+    border-radius: 6px;
+    max-height: 150px;
+}
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+
+  .card-body {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    text-align: center;
+    background-color: #c0cfe6;
+    color: #18191a;
+    border: none;
+    border-radius: 6px;
+    width: min-content;
+}
+
+.card-header {
+    font-size: 28px;
+    color: rgb(16, 15, 15);
+    text-align: center;
+}
+.list-group-item {
+    color: slategray;
+}
+
+/* Maintains side margins - small view ports */
+@media only screen and (max-width: 980px) {
+    .wrapper { 
+        margin: 0 20px;
+    }
+}
